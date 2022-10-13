@@ -1,0 +1,67 @@
+myspell-hy (0.20.0-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sat, 02 Jan 2021 18:52:26 +0100
+
+myspell-hy (0.20.0-2) unstable; urgency=low
+
+  * Rebuild to remove update-openoffice-dicts from myspell-he maintainer
+    scripts (Closes: #629092)
+
+ -- Lior Kaplan <kaplan@debian.org>  Fri, 10 Jun 2011 11:23:32 +0300
+
+myspell-hy (0.20.0-1) unstable; urgency=low
+
+  [ Alan Baghumian ]
+  * New upstream release.
+  * Bump standards version to 3.8.4, no extra change is needed.
+  * Updated debian/copyright:
+    - Added "Arak-29 Charitable Foundation" to copyright file.
+    - Point to GPL-2 license file instead of GPL symlink.
+  * Switched to source version 3.0 (quilt).
+  * Updated debian/control:
+    - Suggest iceweasel and icedove instead of mozilla-browser
+      mozilla-thunderbird.
+    - Added ${misc:Depends} to depends to make lintian happy.
+
+  [ Lior Kaplan ]
+  * Keep openoffice.org 2 compatibility for myspell/hunspell (effects backports
+    for Etach and Lenny).
+
+ -- Alan Baghumian <alan@technotux.org>  Mon, 21 Jun 2010 06:47:42 +0300
+
+myspell-hy (0.10.1-2) unstable; urgency=low
+
+  * Bump standards version to 3.8.3, no extra change is needed
+  * Updated copyright file
+
+ -- Alan Baghumian <alan@technotux.org>  Sun, 20 Sep 2009 19:40:06 -0700
+
+myspell-hy (0.10.1-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * move dict into /usr/share/hunspell and add compatibility symlinks
+    from /usr/share/myspell/dicts (closes: #541948) 
+
+ -- Rene Engelhard <rene@debian.org>  Sat, 19 Sep 2009 20:35:02 +0200
+
+myspell-hy (0.10.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Lior Kaplan <kaplan@debian.org>  Wed, 03 Sep 2008 21:25:00 +0300
+
+myspell-hy (0.10.0-2) unstable; urgency=low
+
+  * Update debian/watch (Closes: #450254)
+
+ -- Lior Kaplan <kaplan@debian.org>  Sat, 01 Dec 2007 21:17:44 +0200
+
+myspell-hy (0.10.0-1) unstable; urgency=low
+
+  * Initial Release (Closes: #438600).
+
+ -- Alan Baghumian <alan@technotux.org>  Sat, 18 Aug 2007 10:40:50 +0330
+

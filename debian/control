@@ -1,0 +1,19 @@
+Source: myspell-hy
+Section: text
+Priority: optional
+Maintainer: Alan Baghumian <alan@technotux.org>
+Uploaders: Lior Kaplan <kaplan@debian.org>
+Build-Depends: debhelper (>> 5.0.0)
+Build-Depends-Indep: dictionaries-common-dev
+Standards-Version: 3.9.2
+Homepage: http://sf.net/projects/armspell
+
+Package: myspell-hy
+Architecture: all
+Depends: dictionaries-common, ${misc:Depends}
+Provides: myspell-dictionary, myspell-dictionary-hy
+Suggests: openoffice.org, iceweasel, icedove
+Description: Armenian dictionary for myspell
+ This is the Armenian dictionary for use with the myspell
+ spellchecker which is currently used within OpenOffice.org and
+ the mozilla spellchecker.
